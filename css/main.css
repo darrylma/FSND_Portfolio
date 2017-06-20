@@ -1,0 +1,59 @@
+body {
+	font-family: 'Acme', sans-serif;
+	color: #72716f;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #bcbbbb;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.title-name {
+	font-size: 60px;
+}
+
+.title-work {
+	font-size: 30px;
+}
+
+.title-project {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+	.title-name {
+		font-size: 40px;
+	}
+
+	.title-work {
+		font-size: 20px;
+	}
+
+	.title-project {
+		font-size: 15px;
+	}
+}
+
+.title-logo {
+	margin-top: 15px;
+	width: 100px;
+	height: 100px;
+}
+
+.img {
+	margin-left: auto;
+	margin-right: auto;
+}

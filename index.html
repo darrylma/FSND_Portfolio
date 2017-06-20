@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+
+	<title>Portfolio</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+</head>
+
+<script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<body>
+	<section class="container">
+		<header class="row">
+			<section class="col-xs-2 col-md-2">
+				<img class="title-logo" src="img/logo.png" alt="logo">
+			</section>
+
+
+			<section class="col-xs-10 col-md-10 text-right text-uppercase">
+				<h1 class="title-name">Darryl Ma</h1>
+
+				<h4>Portfolio Webpage</h4>
+			</section>
+		</header>
+
+
+		<section class="row">
+			<section class="col-md-12">
+				<hr>
+			</section>
+		</section>
+
+
+		<section class="row">
+			<section class="col-md-12">
+				<picture>
+					<source media="(max-width: 500px)" srcset="img/digitalization-small.jpg">
+					<img alt="digitalization" class="img-responsive img" src="img/digitalization-large.jpg">
+				</picture>
+			</section>
+		</section>
+
+
+		<section class="row">
+			<section class="col-md-12">
+				<h2 class="title-work text-uppercase">Featured Work</h2>
+			</section>
+		</section>
+
+
+		<section class="row text-center">
+			<article class="col-sm-4 col-md-4">
+				<picture>
+					<source media="(max-width: 768px)" srcset="img/movies-small.jpg">
+					<img class="img-responsive img" data-target="#movie_website" data-toggle="modal" src="img/movies-large.jpg" alt="Movie Website">
+				</picture>
+
+				<h3 class="title-project">Movie Website</h3>
+
+				<p><a href="files/movie_webpage.zip">&#x25bd; Download Project</a>
+				</p>
+			</article>
+
+
+			<article class="col-sm-4 col-md-4">
+				<picture>
+					<source media="(max-width: 768px)" srcset="img/python-small.png">
+					<img class="img-responsive img" data-target="#python_quiz" data-toggle="modal" src="img/python-large.png" alt="Python Quiz">
+				</picture>
+
+				<h3 class="title-project">Python Quiz</h3>
+
+				<p><a href="files/python_challenger.zip">&#x25bd; Download Project</a>
+				</p>
+			</article>
+
+
+			<article class="col-sm-4 col-md-4">
+				<picture>
+					<source media="(max-width: 768px)" srcset="img/PostgreSQL-small.png">
+					<img class="img-responsive img" data-target="#tournament_database" data-toggle="modal" src="img/PostgreSQL-large.png" alt="PostgreSQL Database">
+				</picture>
+
+				<h3 class="title-project">Tournament Database</h3>
+
+				<p><a href="files/tournament.zip">&#x25bd; Download Project</a>
+				</p>
+			</article>
+		</section>
+	</section>
+
+	<!-- Modal -->
+	<section aria-hidden="true" aria-labelledby="movieWebsiteLabel" class="modal fade" id="movie_website" role="dialog" tabindex="-1">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<header class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Movie Website</h4>
+
+					<h5>A simple movie website with images and embedded trailers, demonstrating knowledge of Object Oriented Programming.</h5>
+				</header>
+
+				<article class="modal-body">
+					<img class="img-responsive" src="img/movie_website_screenshot.png" alt="Movie website screenshot">
+				</article>
+
+				<section class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+
+
+	<section aria-hidden="true" aria-labelledby="pythonQuizLabel" class="modal fade" id="python_quiz" role="dialog" tabindex="-1">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<header class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Python Quiz</h4>
+
+					<h5>A fill-in-the blanks type quiz to leverage the power of functions in Python and automate repetitive tasks.</h5>
+				</header>
+
+				<article class="modal-body">
+					<img class="img-responsive" src="img/python_challenger_screenshot.png" alt="Python quiz screenshot">
+				</article>
+
+				<section class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+
+
+	<section aria-hidden="true" aria-labelledby="postgreSQLDatabaseLabel" class="modal fade" id="tournament_database" role="dialog" tabindex="-1">
+		<section class="modal-dialog">
+			<section class="modal-content">
+				<header class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Tournament Database</h4>
+
+					<h5>A PostgreSQL relational database scheme to store the results of a game tournament, report results of the tournament and determine a winner.</h5>
+				</header>
+
+				<article class="modal-body">
+					<img class="img-responsive" src="img/tournament_database_screenshot.png" alt="Database code sample">
+				</article>
+
+				<section class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</section>
+			</section>
+		</section>
+	</section>
+</body>
+</html>
